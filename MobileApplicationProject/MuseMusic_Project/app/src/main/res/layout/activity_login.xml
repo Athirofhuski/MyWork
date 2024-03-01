@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/muse_app_background"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".LogIn">
+
+    <ImageView
+        android:id="@+id/main_appLogo2"
+        android:layout_width="385dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/muse" />
+
+    <Button
+        android:id="@+id/login_createBtn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="138dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/b8"
+        android:text="Create Account"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_loginBtn" />
+
+    <EditText
+        android:id="@+id/login_emailEditText"
+        android:layout_width="335dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="236dp"
+        android:background="@drawable/b_c"
+        android:ems="10"
+        android:hint="   Email Address"
+        android:textAlignment="center"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_appLogo2" />
+
+    <EditText
+        android:id="@+id/login_passwordEditText"
+        android:layout_width="335dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="524dp"
+        android:background="@drawable/b_c"
+        android:ems="10"
+        android:hint="   Password"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/login_loginBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="269dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/b8"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_passwordEditText" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="404dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="504dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Muse Music"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32" />
+
+    <TextView
+        android:id="@+id/caption2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="your music, your mood"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.404" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

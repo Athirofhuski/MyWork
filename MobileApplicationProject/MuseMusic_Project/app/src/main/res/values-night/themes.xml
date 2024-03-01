@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Project" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#0F4C75</item>
+        <item name="colorPrimaryVariant">#1B262C</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#3282B8</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    //Theme for Activities
+    <style name="b1" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#6096B4</item>
+        <item name="colorPrimaryVariant">#93BFCF</item>
+        <item name="colorOnPrimary">#BDCDD6</item>
+        <item name="colorSecondary">#EEE9DA</item>
+        <item name="colorSecondaryVariant">#1B262C</item>
+        <item name="colorOnSecondary">#0F4C75</item>
+        <item name="android:statusBarColor" tools:targetApi="l">#3282B8</item>
+
+    </style>
+
+    //Theme for Navigation Drawer
+    <style name="b1Nav" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">#BBE1FA</item>
+        <item name="colorPrimaryVariant">#82AAE3</item>
+        <item name="colorOnPrimary">#91D8E4</item>
+        <item name="colorSecondary">#BFEAF5</item>
+        <item name="colorSecondaryVariant">#1B262C</item>
+        <item name="colorOnSecondary">#0F4C75</item>
+        <item name="android:statusBarColor" tools:targetApi="l">#3282B8</item>
+
+    </style>
+
+</resources>

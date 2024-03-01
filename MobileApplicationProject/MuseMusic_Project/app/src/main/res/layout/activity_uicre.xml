@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b13"
+    tools:context=".model.Uicre">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="364dp"
+        android:layout_height="674dp"
+        android:background="#16FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/b7" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="368dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="168dp"
+        android:text="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        android:textColor="#817979"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView15" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="365dp"
+        android:layout_height="195dp"
+        android:background="@drawable/b11"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/nj" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="345dp"
+        android:layout_height="170dp"
+        android:background="@drawable/b11"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.027"
+        app:srcCompat="@drawable/nj" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="345dp"
+        android:layout_height="170dp"
+        android:background="@drawable/b11"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.408"
+        app:srcCompat="@drawable/nj" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="365dp"
+        android:layout_height="195dp"
+        android:background="@drawable/b11"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.4"
+        app:srcCompat="@drawable/nj" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="345dp"
+        android:layout_height="170dp"
+        android:background="@drawable/b11"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.902"
+        app:srcCompat="@drawable/nj" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="365dp"
+        android:layout_height="195dp"
+        android:background="@drawable/b11"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.92"
+        app:srcCompat="@drawable/nj" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="226dp"
+        android:layout_height="216dp"
+        android:layout_marginTop="228dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        app:srcCompat="@drawable/he" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="215dp"
+        android:layout_height="207dp"
+        android:layout_marginTop="228dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        app:srcCompat="@drawable/he" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="224dp"
+        android:layout_height="329dp"
+        android:layout_marginTop="324dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        app:srcCompat="@drawable/ha" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="209dp"
+        android:layout_height="311dp"
+        android:layout_marginTop="332dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.845"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        app:srcCompat="@drawable/ha" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="197dp"
+        android:layout_height="301dp"
+        android:layout_marginTop="332dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11"
+        app:srcCompat="@drawable/ha" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="224dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="316dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="NewJeans"
+        android:textAlignment="center"
+        android:textColor="#A7AED3"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="224dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="324dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="NewJeans"
+        android:textAlignment="center"
+        android:textColor="#4657B8"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="224dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="544dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="NewJeans"
+        android:textAlignment="center"
+        android:textColor="#A7AED3"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="224dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="552dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="NewJeans"
+        android:textAlignment="center"
+        android:textColor="#4657B8"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="224dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="124dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="NewJeans"
+        android:textAlignment="center"
+        android:textColor="#A7AED3"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="224dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="132dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="NewJeans"
+        android:textAlignment="center"
+        android:textColor="#4657B8"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <Button
+        android:id="@+id/bttt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/b10"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/b10"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/b10"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

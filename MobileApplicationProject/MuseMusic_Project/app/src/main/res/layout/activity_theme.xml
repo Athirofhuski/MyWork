@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ThemeActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/coolPinkTheme"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/circle_icon"
+            android:tint="@color/cool_pink"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/coolBlueTheme"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/circle_icon"
+            android:tint="@color/cool_blue"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/coolPurpleTheme"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/circle_icon"
+            android:tint="@color/purple_500"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/coolGreenTheme"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/circle_icon"
+            android:tint="@color/cool_green"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/coolBlackTheme"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/circle_icon"
+            android:tint="@color/black"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/versionName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/version_name"
+        android:background="@color/white"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:padding="16dp"/>
+
+</LinearLayout>

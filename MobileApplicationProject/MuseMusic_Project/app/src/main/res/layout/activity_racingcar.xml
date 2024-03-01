@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/button_color"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".RacingActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="serif-monospace"
+        android:text="Racing Car"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="monospace"
+        android:text="Score : 0"
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/bl_7"
+        android:gravity="center"
+        android:text="Start"
+        android:textColor="@color/muse_app_background" />
+
+    <Button
+        android:id="@+id/backBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/bl_7"
+        android:gravity="center"
+        android:text="Back"
+        android:textColor="@color/muse_app_background" />
+
+</LinearLayout>
